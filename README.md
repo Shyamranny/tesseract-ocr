@@ -7,12 +7,13 @@ Tessdata can be downloaded in all languages from here - https://github.com/tesse
 
 ## Step 2
 Add the below dependency in the pom.xml
+~~~
 <dependency>
 	    <groupId>net.sourceforge.tess4j</groupId>
 	    <artifactId>tess4j</artifactId>
 	    <version>3.2.1</version>
 </dependency>
-
+~~~
 ## Step 3
 Set data path to Tesseract
 tesseract.setDatapath("/Users/shyam/Documents/work/javatesseractocr/tessdata");
